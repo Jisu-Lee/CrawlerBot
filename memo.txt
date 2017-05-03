@@ -1,0 +1,18 @@
+
+ * commands
+ 
+ ./file_name : run file
+ rm : delete file
+ more : view file
+ touch : create file
+
+ * note
+
+ might be efficient to use GIT
+
+ * set up in Windows 10
+ 
+ 1. developer feature -> developer mode on
+ 2. Turn Windows features on and off
+ 3. Check Windows subsystem for Linux
+ 4. Type 'bash' at command prompt
