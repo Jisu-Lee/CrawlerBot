@@ -2,14 +2,15 @@
 # -*- coding: utf-8 -*-
 
 import tweepy, time, sys
+from keys import keys
 
 argfile = str(sys.argv[1])
 
 #enter the corresponding information from your Twitter application:
-CONSUMER_KEY = '7Uiv7Nh4cgEiHkGBjpK1ZBSM8'
-CONSUMER_SECRET = 'VUEkxczxXyl3bhBMPTo1HIWYX9RLY50LrSa6oFgSUjHuOzdEcA'
-ACCESS_KEY = '859611207883309056-Xj0izu3bgSA9IvETl1yAndrwXmUHWY5'
-ACCESS_SECRET = 'wCkjOdtMGTgL00EVKyrzXX3NTImicPY6gKKdGtub8BZcw'
+CONSUMER_KEY = keys['consumer_key']
+CONSUMER_SECRET = keys['consumer_secret']
+ACCESS_TOKEN = keys['access_token']
+ACCESS_TOKEN_SECRET = keys['access_token_secret']
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)

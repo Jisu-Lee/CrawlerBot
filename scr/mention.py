@@ -12,10 +12,10 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
-twts = api.search(q="my name is 503.")
+twts = api.search(q="git is too hard!")
 
 # list of specific strings we want to check for in Tweets
-t = ['my name is 503.']
+t = ['git is too hard!']
 
 for s in twts:
     for i in t:
