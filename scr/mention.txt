@@ -1,5 +1,5 @@
-hello my friend!
-this is CAU team project twitter bot.
+hello my friend!2
+this is CAU team project twitter bot.2
 mention => 10 seconds.
 my name is 503.
 nice to meet you!
