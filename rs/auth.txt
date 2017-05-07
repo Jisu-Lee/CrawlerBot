@@ -1,0 +1,13 @@
+7Uiv7Nh4cgEiHkGBjpK1ZBSM8
+VUEkxczxXyl3bhBMPTo1HIWYX9RLY50LrSa6oFgSUjHuOzdEcA
+859611207883309056-Xj0izu3bgSA9IvETl1yAndrwXmUHWY5
+kjOdtMGTgL00EVKyrzXX3NTImicPY6gKKdGtub8BZcw
+cau_bot
+859611207883309056
+
+#line 0 : API key
+#line 1 : API secret
+#line 2 : access token
+#line 3 : access token secret
+#line 4 : owner
+#line 5 : owner id 
